@@ -4,8 +4,8 @@ import Title from "@/components/Title";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Category from "../../components/Category";
-import CategoryText from "../../components/CategoryIntro";
-import CategoryItem from "../../components/Item";
+import CategoryItem from "../../components/CategoryItem";
+import CategoryText from "../../components/CategoryText";
 
 const Home: NextPage = () => {
     return (
@@ -44,6 +44,10 @@ const Home: NextPage = () => {
                                 https://github.com/AlphaKretin/tectonic-damage-calc
                             </InlineLink>
                             .
+                        </CategoryItem>
+                        <CategoryItem url="https://github.com/AlphaKretin/TectonicScripts" title="PBS Parsing Scripts">
+                            Various simple Python scripts to parse the "PBS" data format used by Pokémon Essentials and
+                            calculate or export data that's useful for different purposes.
                         </CategoryItem>
                     </div>
                 </Category>

@@ -10,7 +10,12 @@ export default function CategoryItem({
     return (
         <div>
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2">
-                <a href={url} className="hover:underline" target="_blank" rel="noopener noreferrer">
+                <a
+                    href={url}
+                    className="hover:underline text-blue-600 dark:text-blue-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     {title}
                 </a>
             </h3>
