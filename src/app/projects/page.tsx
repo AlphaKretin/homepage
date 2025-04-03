@@ -46,10 +46,18 @@ const Home: NextPage = () => {
                             .
                         </CategoryItem>
                         <CategoryItem url="https://github.com/AlphaKretin/TectonicScripts" title="PBS Parsing Scripts">
-                            Various simple Python scripts to parse the "PBS" data format used by Pokémon Essentials and
-                            calculate or export data that's useful for different purposes.
+                            Various simple Python scripts to parse the &quot;PBS&quot; data format used by Pokémon
+                            Essentials and calculate or export data that&apos;s useful for different purposes.
                         </CategoryItem>
                     </div>
+                </Category>
+                <Category name="Yu-Gi-Oh!">
+                    <CategoryText>
+                        I used to be an active member of the online Yu-Gi-Oh! community, and created a number of tools
+                        for their use. While I&apos;m less active now, both socially and in terms of work on those
+                        projects, they are maintained by{" "}
+                        <InlineLink url="https://github.com/DawnbrandBots/">Dawnbrand Bots</InlineLink>.
+                    </CategoryText>
                 </Category>
                 <Category name="Miscellaneous">
                     <CategoryText>Various other projects that don&apos;t fit into any cohesive category.</CategoryText>
