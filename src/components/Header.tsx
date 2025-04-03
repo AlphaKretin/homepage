@@ -17,7 +17,7 @@ export default function Header() {
         <header className="bg-white dark:bg-gray-900 shadow-sm">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                 <Link href="/" className="text-xl font-bold text-gray-800 dark:text-white">
-                    MySite
+                    LunaFlare&apos;s Moon Base
                 </Link>
 
                 <nav className="flex items-center space-x-6">
