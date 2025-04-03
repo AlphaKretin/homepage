@@ -3,9 +3,9 @@ import InlineLink from "@/components/InlineLink";
 import Title from "@/components/Title";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Category from "./components/Category";
-import CategoryIntro from "./components/CategoryIntro";
-import Item from "./components/Item";
+import Category from "../../components/Category";
+import CategoryText from "../../components/CategoryIntro";
+import CategoryItem from "../../components/Item";
 
 const Home: NextPage = () => {
     return (
@@ -19,14 +19,14 @@ const Home: NextPage = () => {
             </Title>
             <Body>
                 <Category name="Pokémon Tectonic">
-                    <CategoryIntro>
+                    <CategoryText>
                         I am a contributor to the Pokémon fangame,{" "}
                         <InlineLink url="https://www.tectonic-game.com/">Pokémon Tectonic</InlineLink>. In addition to
                         my contributions to the game itself, I have also created various standalone tools for developers
                         and players.
-                    </CategoryIntro>
+                    </CategoryText>
                     <div className="space-y-6">
-                        <Item
+                        <CategoryItem
                             url="https://docs.google.com/spreadsheets/d/14JS_0oAJpP7EB9LrtIShvPYshig1oSVsBKCSVAVV6tc/edit?usp=sharing"
                             title="Team Coverage Calculator"
                         >
@@ -36,23 +36,21 @@ const Home: NextPage = () => {
                                 Marriland&apos;s team builder
                             </InlineLink>
                             . I intend to convert this to a webpage in the future.
-                        </Item>
-                        <Item url="https://tectonic.alphakretin.com" title="Damage Calculator">
+                        </CategoryItem>
+                        <CategoryItem url="https://tectonic.alphakretin.com" title="Damage Calculator">
                             A damage calculator using the game&apos;s unique mechanics, stats, and formulae. Currently a
                             major work in progress. GitHub repository at{" "}
                             <InlineLink url="https://github.com/AlphaKretin/tectonic-damage-calc">
                                 https://github.com/AlphaKretin/tectonic-damage-calc
                             </InlineLink>
                             .
-                        </Item>
+                        </CategoryItem>
                     </div>
                 </Category>
                 <Category name="Miscellaneous">
-                    <CategoryIntro>
-                        Various other projects that don&apos;t fit into any cohesive category.
-                    </CategoryIntro>
+                    <CategoryText>Various other projects that don&apos;t fit into any cohesive category.</CategoryText>
                     <div className="space-y-6">
-                        <Item url="https://patd.alphakretin.com" title="Panic at the Dojo Characte Sheet">
+                        <CategoryItem url="https://patd.alphakretin.com" title="Panic at the Dojo Characte Sheet">
                             A digital character sheet for the indie TTRPG,{" "}
                             <InlineLink url="https://liberigothica.itch.io/panic-at-the-dojo">
                                 Panic at the Dojo
@@ -61,7 +59,7 @@ const Home: NextPage = () => {
                             <InlineLink url="https://github.com/AlphaKretin/patd-sheet/">
                                 https://github.com/AlphaKretin/patd-sheet/
                             </InlineLink>
-                        </Item>
+                        </CategoryItem>
                     </div>
                 </Category>
             </Body>

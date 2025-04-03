@@ -1,4 +1,12 @@
-export default function Item({ url, title, children }: { url: string; title: string; children: React.ReactNode }) {
+export default function CategoryItem({
+    url,
+    title,
+    children,
+}: {
+    url: string;
+    title: string;
+    children: React.ReactNode;
+}) {
     return (
         <div>
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2">
