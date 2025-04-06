@@ -37,11 +37,13 @@ const Home: NextPage = () => {
                             </InlineLink>
                             . I intend to convert this to a webpage in the future.
                         </CategoryItem>
-                        <CategoryItem url="https://tectonic.alphakretin.com" title="Damage Calculator">
-                            A damage calculator using the game&apos;s unique mechanics, stats, and formulae. Currently a
-                            major work in progress. GitHub repository at{" "}
-                            <InlineLink url="https://github.com/AlphaKretin/tectonic-damage-calc">
-                                https://github.com/AlphaKretin/tectonic-damage-calc
+                        <CategoryItem url="https://tectonic.alphakretin.com" title="Wep App Collection">
+                            A collection of multiple tools that warranted sharing a website, since they&apos;re all
+                            based on a conversion of the game&apos;s data. Currently features a damage calculator using
+                            the game&apos;s unique mechanics, and an online port of the in-game detailed Pokédex, both
+                            major works in progress. GitHub repository at{" "}
+                            <InlineLink url="https://github.com/AlphaKretin/tectonic-tools">
+                                https://github.com/AlphaKretin/tectonic-tools
                             </InlineLink>
                             .
                         </CategoryItem>
