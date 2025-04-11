@@ -26,6 +26,17 @@ const Home: NextPage = () => {
                         and players.
                     </CategoryText>
                     <div className="space-y-6">
+                        <CategoryItem url="https://tectonic.alphakretin.com" title="Wep App Collection">
+                            A collection of multiple tools that warranted sharing a website, since they&apos;re all
+                            based on a conversion of the game&apos;s data. Currently features a damage calculator using
+                            the game&apos;s unique mechanics, an online port of the in-game detailed Pokédex, and a team
+                            builder that allows you to input your team and determine type-based strengths and
+                            weaknesses. All are major works in progress. GitHub repository at{" "}
+                            <InlineLink url="https://github.com/AlphaKretin/tectonic-tools">
+                                https://github.com/AlphaKretin/tectonic-tools
+                            </InlineLink>
+                            .
+                        </CategoryItem>
                         <CategoryItem
                             url="https://docs.google.com/spreadsheets/d/14JS_0oAJpP7EB9LrtIShvPYshig1oSVsBKCSVAVV6tc/edit?usp=sharing"
                             title="Team Coverage Calculator"
@@ -35,18 +46,10 @@ const Home: NextPage = () => {
                             <InlineLink url="https://marriland.com/tools/team-builder/en/">
                                 Marriland&apos;s team builder
                             </InlineLink>
-                            . I intend to convert this to a webpage in the future.
+                            . This has always been converted into a web page in the collection above, but there&apos;s
+                            not reason not to share the original spreadsheet as well.
                         </CategoryItem>
-                        <CategoryItem url="https://tectonic.alphakretin.com" title="Wep App Collection">
-                            A collection of multiple tools that warranted sharing a website, since they&apos;re all
-                            based on a conversion of the game&apos;s data. Currently features a damage calculator using
-                            the game&apos;s unique mechanics, and an online port of the in-game detailed Pokédex, both
-                            major works in progress. GitHub repository at{" "}
-                            <InlineLink url="https://github.com/AlphaKretin/tectonic-tools">
-                                https://github.com/AlphaKretin/tectonic-tools
-                            </InlineLink>
-                            .
-                        </CategoryItem>
+
                         <CategoryItem url="https://github.com/AlphaKretin/TectonicScripts" title="PBS Parsing Scripts">
                             Various simple Python scripts to parse the &quot;PBS&quot; data format used by Pokémon
                             Essentials and calculate or export data that&apos;s useful for different purposes.
